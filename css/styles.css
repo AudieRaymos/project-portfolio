@@ -55,3 +55,12 @@ header p {
     font-size: 3rem;
     opacity: 0.4;
 }
+
+/*
+PARALLAX SECTION
+*/
+
+.parallax {
+    background-image: url('../images/laptopflat.jpg');
+    height: 100vh;
+}
