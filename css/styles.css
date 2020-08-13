@@ -14,6 +14,12 @@ img{
     max-width: 100%;
 }
 
+hr{
+    width: 100%;
+    opacity: 0.5;
+    color: lightgrey;
+}
+
 ul {
     list-style: none;
     margin: 0;
