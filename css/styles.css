@@ -77,3 +77,12 @@ PARALLAX SECTION
 .parallax li {
     margin: 2rem 0;
 }
+
+/*
+RECENT WORK SECTION
+*/
+
+.recent-work{
+    display: flex;
+    flex-direction: column;
+}
