@@ -73,9 +73,9 @@ PARALLAX SECTION
 .parallax {
     background-image: url('../images/laptopflat.jpg');
     height: 100vh;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 
