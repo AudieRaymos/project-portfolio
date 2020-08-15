@@ -114,3 +114,26 @@ RECENT WORK SECTION
 .features > li {
     margin: 1rem 0;
 }
+
+/*
+CONTACT US SECTION 
+*/
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100vh;
+    background: #B1E2D7;
+    color: white;
+}
+
+.contact-heading {
+    margin: 0;
+    font-size: 5rem;
+}
+
+.contact-info p {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
