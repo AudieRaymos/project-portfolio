@@ -116,7 +116,7 @@ RECENT WORK SECTION
 }
 
 /*
-CONTACT US SECTION 
+CONTACT SECTION 
 */
 
 #contact {
@@ -133,7 +133,17 @@ CONTACT US SECTION
     font-size: 5rem;
 }
 
-.contact-info p {
+.contact-text {
     font-size: 1.4rem;
     margin-bottom: 3rem;
+}
+
+#contact .rotate {
+    display: none;
+}
+
+@media screen and (min-width: 860px) {
+    body {
+        background: red;
+    }
 }
