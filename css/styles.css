@@ -143,7 +143,41 @@ CONTACT SECTION
 }
 
 @media screen and (min-width: 860px) {
-    body {
-        background: red;
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    .rotate {
+        margin: 2rem 0 0 0; 
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        font-size: 5rem;
+    }
+
+    header {
+        height: 100%;
+    }
+
+    .recent-work {
+        flex-direction: row;
+    }
+
+    .recent-work-info {
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .recent-work-image {
+        flex: 2;
+        border: lightslategrey 1rem solid;
+    }
+
+    .recent-work-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .move-right {
+        order: 1;
     }
 }
