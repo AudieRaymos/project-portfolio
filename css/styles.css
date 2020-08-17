@@ -180,4 +180,21 @@ CONTACT SECTION
     .move-right {
         order: 1;
     }
+
+    .contact-heading {
+        margin: 0;
+        font-size: 8rem;
+    }
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#contact .rotate {
+    display: block;
+}
+
 }
