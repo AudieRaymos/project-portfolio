@@ -198,3 +198,13 @@ CONTACT SECTION
 }
 
 }
+
+.fade-in-custom {
+    animation: fadeIn ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1 }
+}
