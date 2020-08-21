@@ -202,8 +202,7 @@ CONTACT SECTION
 
 .fade-in-custom {
     opacity: 0;
-    animation: fadeIn ease-in;
-    animation-duration: 1s;
+    animation: fadeIn 1s ease-in;
     animation-fill-mode: forwards;
 }
 
