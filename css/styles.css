@@ -198,8 +198,6 @@ CONTACT SECTION
     display: block;
 }
 
-}
-
 .fade-in-custom {
     opacity: 0;
     animation: fadeIn 1s ease-in;
