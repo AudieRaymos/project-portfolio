@@ -3,76 +3,246 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Audie's Portfolio</title>
+    <title>Audie Raymos</title>
+
+    <!-- main font -->
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <!-- secondary font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../default.css">
+
+    <!-- color theme style pages-->
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </nav>
-        <h1 class="fade-in-custom delay1">Hi, I'm Audie!</h1>
-        <p class="fade-in-custom delay2">~ I'm a web developer and graphic designer ~</p>
-        <h3 class="rotate">I make things</h3>
-    </header>
 
-    <section class="parallax">
-        <ul>
-            <li data-aos="flip-up" data-aos-delay="0" data-aos-duration="800" >Freelance Web Development</li>
-            <li data-aos="flip-up" data-aos-delay="100" data-aos-duration="800" >Freelance Graphic Design</li>
-            <li data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" >Youtuber</li>
-            <li data-aos="flip-up" data-aos-delay="300" data-aos-duration="800" >Blogger</li>
-            <li data-aos="flip-up" data-aos-delay="400" data-aos-duration="800" >Coffee Lover</li>
-        </ul>
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi! My name is Audie!</h1>
+            </div>
+
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot-1" class="browser-dot"></div>
+                        <div id="dot-2" class="browser-dot"></div>
+                        <div id="dot-3" class="browser-dot"></div>
+                    </div>
+
+                <ul id="navigation">
+                    <li><a href="mailto: audriannakraymos@gmail.com" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+
+                    <div class="left-column">
+                        <img id="profile_pic" src="../img/profile.jpg">
+                        <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
+
+                        <div id="theme-options-wrapper">
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                        </div>
+
+                        <p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
+                    </div>
+
+                    <div class="right-column">
+
+                    <div id="preview-shadow"> 
+                            <div id="preview">
+                                <div id="corner-tl" class="corner"></div>
+                                <div id="corner-tr" class="corner"></div>
+                                <h3>What I Do</h3>
+                                <p>I am a designer and artist able to create beautiful graphics and stunning website designs</p>
+                                <div id="corner-br" class="corner"></div>
+                                <div id="corner-bl" class="corner"></div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
     </section>
 
-        <section id="projects">
-        <h3 class="recent-work-title">Recent work</h3>
-        <hr>
-        <div class="recent-work">
-            <div class="recent-work-info move-right">
-                <h4 data-aos="slide-left"  data-aos-duration="1000">Wreck-it Ralph</h4>
-                <div data-aos="fade-in" data-aos-duration="1000">
-                    <p>Website for the Pixar animated movie "Wreck-it Ralph". </p>
-                    <hr>
-                    <p>Features:</p>
-                    <ul class="features">
-                        <li>Learn about Ralph and friends</li>
-                        <li>Links to Movie website</li>
+    <section class="s2">
+        <div class="main-container">
+
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More About Me</h4>
+
+                    <p>I started out as an acrylic painter and once I learn of digital arts I dove in!</p>
+
+                    <p>My love of design ranges from web design to 3D animation.</p>
+
+
+                <hr>
+
+                <h4>My Skills</h4>
+
+                <p>
+                    Digital artist with primary focus on graphic design.
+                </p>
+
+                <div id="skills">
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>Blender 3D</li>
                     </ul>
-                    <hr>
-                    <a href="">Visit</a>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+
+            </div>
+
+                <div class="social-links">
+                    <h3>Find Me On Instagram</h3>
+                    <a target="_blank" href="https://www.instagram.com/audiedesigns/">
+                   <img class="social-ig" src="../img/instagram.png">
+                    </a>
                 </div>
             </div>
-            <div class="recent-work-image" data-aos="fade-in" data-aos-duration="1500">
-                <img class="image-size" src="images/Wreck-it1.png" alt="Page 1 image of Wreck-it Ralph">
-            </div>
-            <div class="recent-work">
-                <div class="recent-work-info"></div>
-                <div class="recent-work-image"></div>
-            </div>
-    </section>
 
-    <section id="contact">
-        <div class="contact-info">
-            <p class="contact-heading" data-aos="slide-up" data-aos-duration="1800">Dont be a <br>stranger</p>
-            <p class="contact-text" data-aos="slide-left" data-aos-duration="1500">Need a developer? Let's talk!</p>
-            <p class="contact-text" data-aos="slide-right" data-aos-duration="1500">audriannakraymos@gmail.com</p>
         </div>
-        <h3 class="rotate">Contact</h3>
     </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center;">Some of my past projects</h3>
+            
+    <!--------------------------------------->
+    <!---------------- TABS ----------------->
+    <!--------------------------------------->
+            <div class="tabs-container">
+                
+            <div class="tabs">
+                Graphic Design
+            </div>
+
+            <div class="tabs">
+                Digital Paintings
+            </div>
+
+            <div class="tabs">
+                3D art
+            </div>
+
+        </div>
+
+            <div class="post-wrapper">
+
+            <div>
+                <div class="post">
+                    <a href="../img/UFOscene.JPG"> <img class="thumbnail" src="../img/UFOscene.JPG"> </a>
+                    <div class="post-preview">
+                        <h6 class="post-title">UFO Colors</h6>
+                        <p class="post-intro">This is a digital painting I did of a UFO scene. The focus of this painting is blending colors.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="post">
+                    <a href="../img/scientist.PNG"> <img class="thumbnail" src="../img/scientist.PNG"> </a> 
+                    <div class="post-preview">
+                        <h6 class="post-title">Mad Scientist</h6>
+                        <p class="post-intro">This is a digital painting I did of a scientist at work. The focus of this painting is perspective.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="post">
+                    <a href="../img/designCC.JPG"> <img class="thumbnail" src="../img/designCC.JPG"> </a>
+                    <div class="post-preview">
+                        <h6 class="post-title">Design Chicken Chicken</h6>
+                        <p class="post-intro">This is a digital painting I did for a contest a youtube host was having. The theme was "90s video games" My art was featured in the episode.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="post">
+                    <a href="../img/forrestscene.JPG"> <img class="thumbnail" src="../img/forrestscene.JPG"> </a>
+                    <div class="post-preview">
+                        <h6 class="post-title">Forrest Scene</h6>
+                        <p class="post-intro">This is a digital painting I did of a some deer in a forrest and a man napping under a tree. The focus on this painting is perspective and colors.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="post">
+                    <a href="../img/SL-logo.png"> <img class="thumbnail" src="../img/SL-logo.png"> </a>
+                    <div class="post-preview">
+                        <h6 class="post-title">Stress Less Logo</h6>
+                        <p class="post-intro">These are some different logo options I made for a mediation app.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="post">
+                    <a href="../img/Lit Mama Circle.png"> <img class="thumbnail" src="../img/Lit Mama Circle.png"> </a>
+                    <div class="post-preview">
+                        <h6 class="post-title">Candle Company Logo</h6>
+                        <p class="post-intro">This is a logo I designed for an organic candle company.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h3 style="text-align: center;">Get in Touch</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" type="text" name="subject"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+<script src="../script.js"></script>
+
 </body>
 
 </html>
